@@ -1,3 +1,38 @@
+SolarisMonitor — Simplified monitoring for Tor relays
+
+SolarisMonitor is a monitoring tool designed to make tracking Tor network relays easier. Developed in Python, this software serves as an alternative to Nyx, aiming to provide a simple, fast, and practical solution for monitoring the operation of Tor relays.
+
+🔧 Key Features
+
+Tor relay monitoring: A tool dedicated to tracking relays within the Tor network.
+
+Alternative to Nyx: An additional approach for monitoring your Tor environment.
+
+Simplified configuration: The software is designed to run without requiring any modifications to the `torrc` configuration file.
+
+Configurable connection: If the Tor control port is not detected automatically, it can be specified manually.
+
+Python-based: A program designed to run in a compatible Python environment.
+
+🚀 Installation and Usage
+
+If the Tor control port is not detected automatically, you can launch the program by specifying the desired port:
+
+python3 solaris-monitor1.py --port 9001
+
+Port 9001 is provided as an example and should be replaced with the port configured in your specific Tor installation.
+
+🎯 Project Goal
+
+SolarisMonitor aims to make monitoring Tor relays more accessible by prioritizing ease of use and minimal configuration.
+
+SolarisMonitor — A simpler way to monitor Tor relays.
+
+
+
+french--
+
+
 SolarisMonitor — Surveillance simplifiée des relais Tor
 
 SolarisMonitor est un outil de surveillance conçu pour faciliter le suivi des relais du réseau Tor. Développé en Python, ce logiciel se présente comme une alternative à Nyx, avec pour objectif de proposer une solution simple, rapide et pratique pour surveiller le fonctionnement des relais Tor.
